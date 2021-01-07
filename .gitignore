@@ -1,4 +1,5 @@
 .bin/
 .idea/
 dist/
-vendor/
+vendor/smartthings_exporter.iml
+

@@ -12,7 +12,7 @@ Smartthings_exporter (this step will also download and compile the GoSmart libra
 
 
 ```
-$ go get -u github.com/kadaan/smartthings_exporter
+$ go get -u github.com/ejsuncy/smartthings_exporter
 ```
 
 ### SmartThings Setup

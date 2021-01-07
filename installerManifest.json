@@ -1,6 +1,6 @@
 {
-  "namespace": "kadaan",
-  "repoOwner": "kadaan",
+  "namespace": "ejsuncy",
+  "repoOwner": "ejsuncy",
   "repoName": "smartthings_exporter",
   "repoBranch": "master",
   "name": "Smartthings Exporter API",
@@ -18,7 +18,7 @@
       "oAuth": true,
       "appSettings": {},
       "version": "0.0.2",
-      "appUrl": "smartapps/kadaan/smartthings-exporter-api.src/smartthings-exporter-api.groovy"
+      "appUrl": "smartapps/ejsuncy/smartthings-exporter-api.src/smartthings-exporter-api.groovy"
     },
     "children": []
   },

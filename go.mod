@@ -1,4 +1,4 @@
-module github.com/kadaan/smartthingg_exporter
+module github.com/ejsuncy/smartthingg_exporter
 
 go 1.15
 

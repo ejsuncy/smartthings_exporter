@@ -12,14 +12,14 @@
  *
  *  Smartthings Exporter API
  *
- *  Author: kadaan
+ *  Author: ejsuncy
  */
 
 import groovy.transform.EqualsAndHashCode
 
 definition(
   name: "Smartthings Exporter API",
-  namespace: "kadaan",
+  namespace: "ejsuncy",
   author: "Joel Baranick",
   description: "API used by Smartthings_exporter to read sensor data.",
   category: "My Apps",

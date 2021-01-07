@@ -180,7 +180,7 @@ function run() {
   fi
 
   verbose "Building binaries..."
-  ${GOX} -os="${XC_OS}" -arch="${XC_ARCH}" -osarch="!darwin/arm !darwin/arm64 !darwin/386" -ldflags "-s -w -X github.com/kadaan/smartthings_exporter/vendor/github.com/prometheus/common/version.Version=$VERSION -X github.com/kadaan/smartthings_exporter/vendor/github.com/prometheus/common/version.Revision=$revision -X github.com/kadaan/smartthings_exporter/vendor/github.com/prometheus/common/version.Branch=$branch -X github.com/kadaan/smartthings_exporter/vendor/github.com/prometheus/common/version.BuildUser=$USER@$host -X github.com/kadaan/smartthings_exporter/vendor/github.com/prometheus/common/version.BuildDate=$buildDate" -output="dist/{{.Dir}}_{{.OS}}_{{.Arch}}" || fatal "gox failed: $?"
+  ${GOX} -os="${XC_OS}" -arch="${XC_ARCH}" -osarch="!darwin/arm !darwin/arm64 !darwin/386" -ldflags "-s -w -X github.com/ejsuncy/smartthings_exporter/vendor/github.com/prometheus/common/version.Version=$VERSION -X github.com/ejsuncy/smartthings_exporter/vendor/github.com/prometheus/common/version.Revision=$revision -X github.com/ejsuncy/smartthings_exporter/vendor/github.com/prometheus/common/version.Branch=$branch -X github.com/ejsuncy/smartthings_exporter/vendor/github.com/prometheus/common/version.BuildUser=$USER@$host -X github.com/ejsuncy/smartthings_exporter/vendor/github.com/prometheus/common/version.BuildDate=$buildDate" -output="dist/{{.Dir}}_{{.OS}}_{{.Arch}}" || fatal "gox failed: $?"
 
   verbose "Compressing binaries..."
   for f in dist/*; do

@@ -21,7 +21,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/kadaan/smartthingg_exporter/gosmart"
+	"github.com/ejsuncy/smartthingg_exporter/gosmart"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	plog "github.com/prometheus/common/log"

@@ -10,5 +10,5 @@ deploy:
   file: dist/*.tar.gz
   skip_cleanup: true
   on:
-    repo: kadaan/smartthings_exporter
+    repo: ejsuncy/smartthings_exporter
     tags: true
