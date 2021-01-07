@@ -1,4 +1,4 @@
-module github.com/ejsuncy/smartthingg_exporter
+module github.com/ejsuncy/smartthings_exporter
 
 go 1.15
 
